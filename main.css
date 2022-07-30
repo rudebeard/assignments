@@ -18,7 +18,7 @@ body{
   color:rgb(65, 63, 63);
 }
 .p{
-
+  position:relative;
   border:2px solid;
   width:750px;
   height:950px;
@@ -41,7 +41,7 @@ body{
 }
 #t:hover{
   background-color: blanchedalmond;
-  backgroun-color:yellow;
+  
 }
  #t:active{
   color:red;
@@ -56,4 +56,23 @@ body{
  }
  .k{
   font-style:italic;
+ }
+ #q{
+  
+  border:3px solid;
+  height:50px;
+  position:absolute;
+  text-align: center;
+  bottom:0px;
+  width: 760px;
+  left:0px;
+  border-radius: 0px 0px 5px 4px;
+  padding-top:20px;
+  background-color: antiquewhite;
+  font-size:30px;
+  font-style:italic;
+
+  
+  
+  
  }
