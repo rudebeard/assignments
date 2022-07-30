@@ -1,51 +1,81 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Adem Koroglu</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML CSS</title>
+  <link rel="stylesheet" href="main.css">
 </head>
-<style>
-.ben{
-color:blue;
-font-size:45px;
-font-style:oblique;
-}
-</style>
-
 <body>
-  <h1 style="text-align:center; color:red; font-size:60px;font-style:oblique;">Here Is My New Website to Indtroduce<span style="color:black"> Myself</span></h1>
-  <p style="font-style:oblique; font-size:30px; text-align:center;">Sorry guys i could not find myself in google so i choosed this photograph  </p>
- <img style=" width:450px; margin-left:700px; "src="data:image/jpeg;base64,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 " 
- alt="i could not find myself in google so i choosed this photo">
- 
- <ol class="ben">
-  <li>i was born in 1997.</li>
- <li>i stayed in my village till i grow up.</li>
- <li>After i realised that,that life does bot fit on me i run away.</li>
- <li>And I am here.</li>
-</ol>
-<p class="ben">Thank you For Letting me to introduce myself if you want u can listen to music i choosed for you.</p>
-<a href="https://www.youtube.com/watch?v=fB8TyLTD7EE" class="ben">HOPE YOU ENJOY THIS</a>
+      <h1 id="ben">HTML& CSS BASICS</h1>
+        
+          <img  id="sen" src="https://www.nicepng.com/png/detail/985-9857805_html5-css3-logo-png-html-and-css-logo.png" alt="html css.png">
+        
 
+        <main class="p">
+          <div id="v">
+              <h2>HTML Summary</h2>
+                   <p>Our page's content, structure, and meaning are all defined using HTML (HyperText
+                    Markup Language).<br>
+                    You don't use it for styling purposes. Instead, use CSS for that!<br>
+                    <ul >
+                      <li style="color:blanchedalmond;"> HTML uses "elements" to describe (annotate) content</li>
+                    </ul>  
+                          <p>Typically, HTML elements have an opening tag, content, and a closing tag.</p>
+                  <ul>  
+                   <li style="color:blanchedalmond;">You can also have void (empty) elements like images</li>
+                   <li style="color:blanchedalmond;"> You can also configure elements with attributes</li>
+                          </ul>     
+                   <p>There's a long list of available elements but you'll gain experience over time, no
+                    worries.
+                    Learn more about all available HTML elements on <mark>The MDN HTML element reference </mark></p><br>
+                    
+                    
+                   
+                      
+          </div>
+            <br>
+            
+            
+           <div> 
+              <h2 id="m">CSS Summary</h2>
 
+            <p class="k">You can style the content of your page by using CSS (Cascading Style Sheets).
+             <ul > To assign styles, use property value pairs.
+              By using the "style" attribute, you can assign styles.
+              <li style="color:blanchedalmond;"> Typically, global styles (such as those provided by the "style" element) are used
+              to prevent code duplication</li>
+              A different option is to use external stylesheet files that you "link" to " <br>
+              <li style="color:blanchedalmond; text-;">Understanding terms like "inheritance," "specificity," and "the box model" is
+              essential while dealing with CSS.</li><br>
+              Visit the MDN CSS property reference to learn more about all of the available CSS
+              properties and values.</ul>
+            </p>
+           </div>
+        </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <button id="t"><a href="https://www.youtube.com/watch?v=wwbM63-LFD4" target="_blank">Download</a></button>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
